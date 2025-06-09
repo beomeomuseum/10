@@ -2,22 +2,79 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>큐알 10번</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>성보박물관 대자대비 오디오 가이드 ⑩</title>
   <style>
-    body { font-family: sans-serif; padding: 2em; max-width: 800px; margin: auto; }
-    img { max-width: 100%; height: auto; display: block; margin-bottom: 1em; }
-    audio { width: 100%; margin-top: 1em; }
+    :root {
+      font-size: 18px; /* ✅ 모든 디바이스에서 글자 크게 */
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      margin: 1rem;
+      background: #f6f6f6;
+      color: #222;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 1.2rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      border: 1px solid #ddd;
+    }
+
+    .card h2 {
+      font-size: 1.4rem;
+      margin: 0 0 0.8rem 0;
+    }
+
+    .card p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .card audio {
+      display: block;
+      width: 100%;     /* ✅ 전체 너비로 고정 */
+      height: 42px;    /* ✅ iOS에서 최소한 표시되게 */
+      margin-top: 1rem;
+    }
+.card img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+ }
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+    }
   </style>
 </head>
 <body>
-  <h1>큐알 10</h1>
-  <img src="images/photo_10.jpg" alt="전시 이미지 10" />
-  <p>김정주 작가의 <해중관침음복살>은 작품에 비치던 성체를 관람객이 봤을 때, 울리는 소리와 천정 원형에 투영된 파장을 통해 내면에 스며드는 해중음을 관객 참여형으로 표현한 작품입니다.</p>
-  <p>작가의 작품 해설이 별도로 부착되어 있습니다. 작가의 글을 통해 공감해보시기 바랍니다.</p>
-  <audio controls>
-    <source src="audio/audio_10.mp3" type="audio/mpeg">
-    오디오가 지원되지 않는 브라우저입니다.
-  </audio>
+    <h1>성보박물관 대자대비 오디오 가이드 ⑩</h1>
+
+    <div class="card">
+        <p>김정주작가의 해조음관세음보살은 작품에 비치된 징채를 관람객이 쳤을 때, 울리는 소리와 천정 원형에 투영된 파장을 통해 내면에 스며드는 해조음을 관객 참여미술로 표현한 작품입니다.
+작가의 작품 해설이 별도로 부착되어있습니다. 작가의 글을 통해 공감해보시기 바랍니다.</p>
+        <audio controls>
+            <source src="audio/jogye_gate.mp3" type="audio/mpeg">
+            오디오를 지원하지 않는 브라우저입니다.
+        </audio>
+    </div>
+    
 </body>
 </html>
